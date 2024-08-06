@@ -215,6 +215,10 @@ footer {
         position: absolute;
     }
 
+    .about-me-tablet .about-me-links {
+        display: none;
+    }
+
     .photo-background-tablet {
         position: absolute;
         width: 100%;
@@ -338,5 +342,72 @@ footer {
     .patrick {
         width: 40vw;
         height: 40vw;
+    }
+}
+
+/* styling for laptops and desktops */
+
+@media (min-width: 1024px) {
+
+    /* styling for about me section */
+
+    .about-me-tablet .about-me-links {
+        display: block;
+        text-align: end;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+
+    .about-me-github,
+    .about-me-linkedin {
+        width: 4vw;
+    }
+
+    .about-me-section {
+        height: 300px;
+    }
+
+    .photo-background-tablet {
+        height: 120%; 
+        transform: skewY(-10deg);
+    }
+
+    .spongebob-tablet {
+        width: 20%;
+    }
+
+    .name-tablet {
+        font-size: 2vw;
+        position: absolute;
+        bottom: 0;
+        left: 11%;
+    }
+
+    .about-me-header-tablet {
+        font-size: 3vw;
+    }
+
+    .about-me-description-tablet {
+        font-size: 1.25vw;
+    }
+}
+
+/* change height of about me section for proper formatting on larger screens */
+
+@media (min-width: 1440px) {
+    .about-me-section {
+        height: 400px;
+    }
+}
+
+@media (min-width: 1920px) {
+    .about-me-section {
+        height: 580px;
+    }
+}
+
+@media (min-width: 2560px) {
+    .about-me-section {
+        height: 760px;
     }
 }
