@@ -200,7 +200,7 @@ footer {
     .about-me,
     .about-me-header,
     .about-me-description,
-    .about-me-links {
+    .about-me-section .about-me-links {
         display: none;
     }
 
@@ -280,5 +280,63 @@ footer {
         margin: 12px;
         font-size: 1.25rem;
         color: rgb(58, 58, 58);
+    }
+
+    /* styling for projects section */
+
+    .projects-header {
+        text-align: left;
+        font-size: 6vw;
+        margin-left: 32px;
+        margin-bottom: 8px;
+    }
+
+    .project-boxes {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .project {
+        width: 40vw;
+    }
+
+    .project-screenshot {
+        height: 40vw;
+        font-size: 6vw;
+    }
+
+    .project-info {
+        height: calc(40vw * (2 / 3));
+    }
+    
+    .project-name {
+        font-size: 3vw;
+    }
+    
+    .project-description {   
+        font-size: 2vw;
+    }
+
+    /* styling for footer */
+
+    footer {
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        background-color: rgb(98, 198, 228);
+    }
+
+    .contact {
+        font-size: 3vw;
+    }
+
+    .contact-me {
+        font-size: 6vw;
+    }
+
+    .patrick {
+        width: 40vw;
+        height: 40vw;
     }
 }
