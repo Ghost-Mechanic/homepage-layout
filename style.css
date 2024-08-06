@@ -390,6 +390,57 @@ footer {
     .about-me-description-tablet {
         font-size: 1.25vw;
     }
+
+    /* styling for projects section */
+
+    .projects-header {
+        font-size: 4rem;
+        margin-left: 5%;
+    }
+
+    .project-boxes {
+        align-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .project {
+        flex: 1 1 25w;
+        width: 25vw;
+    }
+
+    .project-screenshot {
+        height: 25vw;
+        font-size: 3vw;
+    }
+
+    .project-info {
+        height: calc(25vw * (2 / 3));
+    }
+    
+    .project-name {
+        font-size: 2vw;
+    }
+
+    .project-github,
+    .project-link {
+        width: 2.5vw;
+    }
+    
+    .project-description {   
+        font-size: 1.5vw;
+    }
+
+    /* styling for footer */
+
+    .contact .about-me-links {
+        gap: 40px;
+    }
+
+    .contact .about-me-links .about-me-github,
+    .contact .about-me-links .about-me-linkedin {
+        width: 6vw;
+
+    }
 }
 
 /* change height of about me section for proper formatting on larger screens */
